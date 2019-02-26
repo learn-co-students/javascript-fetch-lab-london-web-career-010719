@@ -1,6 +1,5 @@
 //==== Set Global State & Variables ====//
 const baseURL = 'https://api.github.com'
-const token = '3f9eafa5bb7133b6a8edc52070f124ed9e5d1a3d'
 
 function getIssues() {
 }
@@ -38,5 +37,4 @@ function forkRepo() {
 function getToken() {
   //change to your token to run in browser, but set
   //back to '' before committing so all tests pass
-  return '3f9eafa5bb7133b6a8edc52070f124ed9e5d1a3d'
 }
